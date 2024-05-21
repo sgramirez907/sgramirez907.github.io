@@ -1,0 +1,78 @@
+git clone https://github.com/sgramirez907/personal-webpage.git
+cd personal-webpage
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        section {
+            padding: 2rem;
+        }
+        .about-me {
+            background-color: #fff;
+            margin: 1rem auto;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .projects {
+            background-color: #eee;
+            margin: 1rem auto;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .project {
+            margin-bottom: 2rem;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+    </header>
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p>I am a student at the University of Alaska Fairbanks, in the Mining Engineering department.</p>
+    </section>
+    <section class="projects">
+        <h2>Current Projects</h2>
+        <div class="project">
+            <h3>1. Working with South 32 on their Ambler Road Exploration Project</h3>
+            <p>Details about the Ambler Road Exploration Project.</p>
+        </div>
+        <div class="project">
+            <h3>2. Surveying a Potential Mine Access Road for the Johnson Tract Mine</h3>
+            <img src="IMG_4556.jpg" alt="Johnson Tract Project">
+            <img src="IMG_4569.jpg" alt="Johnson Tract Project">
+            <img src="IMG_4605.jpg" alt="Johnson Tract Project">
+            <img src="IMG_4628.jpg" alt="Johnson Tract Project">
+            <img src="Jul 18 2023 3.jpeg" alt="Johnson Tract Project">
+        </div>
+        <div class="project">
+            <h3>3. Surveying Remote Cabin Parcels near Minchumina Lake</h3>
+            <p>Details about the Minchumina Lake project.</p>
+        </div>
+    </section>
+</body>
+</html>
+git add .
+git commit -m "Initial commit with HTML file and images"
